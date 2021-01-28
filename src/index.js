@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import store from './store.js';
+// import store from './store.js';
 // import { bugAdded, bugResolved } from './actions';
-import { Provider } from 'react-redux';
+// import { Provider } from 'react-redux';
 
 // const unsubscribe = store.subscribe(() => {
 //   console.log("Store changed!", store.getState());
@@ -30,9 +30,10 @@ import { Provider } from 'react-redux';
 
 
 ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
+  // <Provider store={store}>
+  <App />
+  // </Provider>
+  ,
   document.getElementById('root')
 );
 
