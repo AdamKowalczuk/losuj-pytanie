@@ -65,13 +65,19 @@ $white:#FBFBFA;
 }
 @media screen and (max-width: 759px){
     .nav{
-        width: 15vw;
+        // width: 15vw;
         .nav-option {
             display: block;
             text-align: center;
             padding: 8px;
             transition: all 0.3s ease;
             color: white;
+            font-size: 26px;
+        }
+    }
+    .nav-right{
+        .nav-option {
+            padding: 8px;
             font-size: 26px;
         }
     }
