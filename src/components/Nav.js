@@ -1,4 +1,6 @@
 import React from 'react'
+
+
 function toogleMenu() {
     let x = document.getElementsByClassName("nav")[0].style;
     if (x.display === "block") {
