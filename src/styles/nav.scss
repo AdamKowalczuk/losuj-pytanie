@@ -14,7 +14,6 @@ $white:#FBFBFA;
         transition: all 0.3s ease;
         color: white;
         font-size: 36px;
-        
     }
     .nav-option:hover{
         background-color: $white;
@@ -32,4 +31,15 @@ $white:#FBFBFA;
     }
 }
 
-  
+@media screen and (max-width: 759px){
+    .nav{
+        .nav-option {
+            display: block;
+            text-align: center;
+            padding: 8px;
+            transition: all 0.3s ease;
+            color: white;
+            font-size: 26px;
+        }
+    }
+}  
