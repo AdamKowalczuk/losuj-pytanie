@@ -1,17 +1,17 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './styles/App.scss';
 import './styles/button.scss';
 import './styles/nav.scss';
 import Nav from './components/Nav'
-import Draw from './Draw.js';
-import { useSelector, useDispatch } from 'react-redux';
-import { bugAdded } from './actions';
+// import Draw from './Draw.js';
+// import { useSelector, useDispatch } from 'react-redux';
+// import { bugAdded } from './actions';
 
 function App() {
   // const counter = useSelector(state => state.counter);
   // const isLogged = useSelector(state => state.isLogged);
   // const actualQuestion = useSelector(state => state.questions);
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
   return (
     <div className="App">
       <Nav />
