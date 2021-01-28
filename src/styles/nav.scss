@@ -12,7 +12,7 @@ $white:#FBFBFA;
         text-align: center;
         padding: 16px;
         transition: all 0.3s ease;
-        color: white;
+        color: $white;
         font-size: 36px;
     }
     .nav-option:hover{
@@ -30,7 +30,9 @@ $white:#FBFBFA;
         
     }
 }
-
+.nav-right{
+        right: 0;
+}
 @media screen and (max-width: 759px){
     .nav{
         width: 15vw;
