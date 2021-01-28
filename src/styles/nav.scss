@@ -5,7 +5,8 @@ $white:#FBFBFA;
 .nav {
     background: $red;
     height: 100vh;
-    width: 10vw;
+    // width: 10vw;
+    width: auto;
     position: absolute;
     .nav-option {
         display: block;
@@ -17,7 +18,7 @@ $white:#FBFBFA;
     }
     .nav-option:hover{
         background-color: $white;
-        
+        cursor: pointer;
         i{
             color: $red;
         }
@@ -31,7 +32,36 @@ $white:#FBFBFA;
     }
 }
 .nav-right{
-        right: 0;
+    height: auto;
+    width: 100vw;
+    // width: auto;
+    text-align: left;
+    // left: 0vw;
+    background: $red;
+    position: absolute;
+    .nav-option {
+        display: inline-block;
+        text-align: center;
+        padding: 16px;
+        transition: all 0.3s ease;
+        color: $white;
+        font-size: 36px;
+    }
+    .nav-option:hover{
+        background-color: $white;
+        cursor: pointer;
+        i{
+            color: $red;
+        }
+    }
+    .active {
+        background-color: $dark;
+        i{
+            color: $red;
+        }
+        
+    }
+        
 }
 @media screen and (max-width: 759px){
     .nav{
@@ -46,3 +76,8 @@ $white:#FBFBFA;
         }
     }
 }  
+
+
+
+
+// zrobić cursor ?
