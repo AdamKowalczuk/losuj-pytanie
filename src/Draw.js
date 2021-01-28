@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
+// import React, { Component } from 'react'
 
-export default class Draw extends Component {
+// export default class Draw extends Component {
 
-    render() {
-        return (
-            <>
+//     render() {
+//         return (
+//             <>
 
-            </>
-        )
-    }
-}
+//             </>
+//         )
+//     }
+// }

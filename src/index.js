@@ -22,7 +22,6 @@ import { Provider } from 'react-redux';
 //   }
 
 // });
-console.log(store.getState());
 
 
 
