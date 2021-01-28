@@ -14,6 +14,8 @@ function App() {
   // const dispatch = useDispatch();
   return (
     <div className="App">
+
+      {/* <div className="menu"><i class="fas fa-bars"></i></div> */}
       <Nav />
       {/* <Draw /> */}
       {/* <h1>Counter {counter}</h1>
