@@ -26,8 +26,6 @@ export default function Nav() {
 
             <div className="menu-box" onClick={() => toogleMenu()}>
                 <div className="menu"><i className="fas fa-bars"></i></div>
-
-
             </div>
             <div className="nav">
                 <div className="menu" onClick={() => toogleMenu()}><i className="fas fa-bars"></i></div>
@@ -39,13 +37,6 @@ export default function Nav() {
                 <div className="nav-option"><i className="fas fa-grin-tears"></i></div>
                 <div className="nav-option"><i className="fas fa-pizza-slice"></i></div>
             </div>
-            {/* <div className="nav-right">
-                <div className="nav-option"><i className="fas fa-dice"></i></div>
-                <div className="nav-option"><i className="fas fa-hamburger"></i></div>
-                <div className="nav-option"><i className="fas fa-grin-tears"></i></div>
-                <div className="nav-option"><i className="fas fa-pizza-slice"></i></div>
-
-            </div> */}
         </>
     )
 }

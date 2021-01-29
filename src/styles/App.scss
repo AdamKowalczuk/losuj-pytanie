@@ -17,8 +17,12 @@ body{
   .h1-box{
     color: $red;
     h1{
+      padding: 10px;
       margin-bottom: 0;
       border-bottom: 2px solid $white;
+      border-top: 2px solid $white;
+      border-left: 2px solid $white;
+      border-right: 2px solid $white;
     };
   };
   h3{
