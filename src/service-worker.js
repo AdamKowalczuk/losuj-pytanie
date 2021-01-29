@@ -1,3 +1,17 @@
+import { precacheAndRoute } from 'workbox-precaching/precacheAndRoute'
+import { createHandlerForURL } from 'workbox-precaching/createHandlerForURL'
+import { NavigationRoute } from 'workbox-routing/NavigationRoute'
+import { registerRoute } from 'workbox-routing/registerRoute'
+
+
+precacheAndRoute(__WB_MANIFEST)
+
+registerRoute(
+    new NavigationRoute(createHandlerForURL('/index.html'))
+)
+
+
+
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
