@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { useSelector, useDispatch } from 'react-redux'
+import { setCategory } from '../actions/index'
 
 function toogleMenu() {
     let x = document.getElementsByClassName("nav")[0].style;
@@ -20,7 +21,8 @@ function toogleMenu() {
 
 
 export default function Nav() {
-
+    const category = useSelector(state => state.category);
+    const dispatch = useDispatch();
     return (
         <>
 
@@ -29,9 +31,9 @@ export default function Nav() {
             </div>
             <div className="nav">
                 <div className="menu" onClick={() => toogleMenu()}><i className="fas fa-bars"></i></div>
-                <div className="nav-option" ><i className="fas fa-dice"></i></div>
-                <div className="nav-option"><i className="fas fa-dog"></i></div>
-                <div className="nav-option active"><i className="fas fa-dumbbell"></i></div>
+                <div className="nav-option" onClick={() => dispatch(setCategory("Losowe"))}><i className="fas fa-dice"></i></div>
+                <div className="nav-option" onClick={() => dispatch(setCategory("Ogólne"))}><i className="fas fa-dog"></i></div>
+                <div className="nav-option active" onClick={() => dispatch(setCategory("Przyszłościowe"))}><i className="fas fa-dumbbell"></i></div>
                 <div className="nav-option"><i className="fas fa-grin-hearts"></i></div>
                 <div className="nav-option"><i className="fas fa-hamburger"></i></div>
                 <div className="nav-option"><i className="fas fa-grin-tears"></i></div>
