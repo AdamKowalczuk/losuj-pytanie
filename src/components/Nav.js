@@ -1,5 +1,5 @@
 import React from 'react'
-import { useSelector, useDispatch } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { setCategory } from '../actions/index'
 
 function toogleMenu() {
@@ -21,7 +21,7 @@ function toogleMenu() {
 
 
 export default function Nav() {
-    const category = useSelector(state => state.category);
+    // const category = useSelector(state => state.category);
     const dispatch = useDispatch();
     return (
         <>
