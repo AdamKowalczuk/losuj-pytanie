@@ -1,5 +1,6 @@
 {
   "name": "losuj-pytanie",
+  "homepage": "https://losuj-pytanie.netlify.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
