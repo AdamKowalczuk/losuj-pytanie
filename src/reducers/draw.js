@@ -1,81 +1,38 @@
-
-let questions = [
-    {
-        description: "Ile masz lat?",
-        isUsed: false,
-        category: "Prywatne",
-
-    },
-    {
-        description: "Jak masz na imię?",
-        isUsed: false,
-        category: "Osobiste",
-
-    },
-    {
-        description: "Czy masz psa?",
-        isUsed: false,
-        category: "Zwierzęce",
-
+import {questions,yesOrNot,music} from '../questions'
+let availableQuestions = [];
+let category
+let categoryEn
+let randomArray
+function setQuestions(categoryEn){
+    switch(categoryEn){
+        case 'random':
+            randomArray=yesOrNot.concat(music)
+            return randomArray;
+        case 'music':
+            console.log("Muzyka:",music);
+            return music;
+        case 'yesOrNot':
+            return yesOrNot;
     }
-];
-// let generalQuestions = [
-//     {
-//         description: "Czym się interesujesz?",
-//         isUsed: false,
-//         category: "Ogólne",
-
-//     },
-//     {
-//         description: "Jaka jest twoja ulubiona potrawa?",
-//         isUsed: false,
-//         category: "Ogólne",
-
-//     },
-//     {
-//         description: "Czy masz psa?",
-//         isUsed: false,
-//         category: "Ogólne",
-
-//     },
-
-// ];
-
-// let forwardLookingQuestions = [
-//     {
-//         description: "Gdzie widzisz siebie za 10 lat?",
-//         isUsed: false,
-//         category: "Przyszłościowe",
-
-//     },
-//     {
-//         description: "Gdzie chcesz pracować w przyszłości?",
-//         isUsed: false,
-//         category: "Przyszłościowe",
-
-//     },
-//     {
-//         description: "Czy chcesz mieć dzieci?",
-//         isUsed: false,
-//         category: "Przyszłościowe",
-
-//     },
-// ];
-
-
+    
+}
 const actualQuestionReducer = (state = questions, action) => {
 
     switch (action.type) {
         case "SET_QUESTIONS":
             return state;
         case "SET_ACTUAL_QUESTION":
-            let availableQuestions = [];
-            for (let i = 0; i < questions.length; i++) {
-                if (questions[i].isUsed === false) {
-                    availableQuestions.push(questions[i])
+            availableQuestions=[]
+            category=action.payload
+            console.log(category);
+            categoryEn=setQuestions(category)
+            console.log(categoryEn);
+            for (let i = 0; i < categoryEn.length; i++) {
+                if (categoryEn[i].isUsed === false) {
+                    availableQuestions.push(categoryEn[i])
                 }
             }
-            console.log(availableQuestions);
+            console.log("AvailableQuestions:",availableQuestions);
             if (availableQuestions.length === 0) {
                 return {
                     description: "Zadałeś wszystkie pytania!",
@@ -93,7 +50,7 @@ const actualQuestionReducer = (state = questions, action) => {
             return {
                 description: "Losuj pytanie",
                 isUsed: false,
-                category: "Losowe",
+                category: "losowe",
             };
     }
 }

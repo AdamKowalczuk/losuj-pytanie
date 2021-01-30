@@ -1,11 +1,11 @@
-$red: #F15D71;
-$dark:#39405E;
-$white:#FBFBFA;
+$red: #f15d71;
+$dark: #39405e;
+$white: #fbfbfa;
 
-body{
+body {
   margin: 0;
 }
-.App{
+.App {
   text-align: center;
   width: 100vw;
   height: 100vh;
@@ -13,35 +13,32 @@ body{
   color: $white;
   font-family: "Oswald", sans-serif;
 }
-.draw-container{
-  .h1-box{
+.draw-container {
+  .h1-box {
     color: $red;
-    h1{
+    h1 {
       padding: 10px;
       margin-bottom: 0;
       border-bottom: 2px solid $white;
       border-top: 2px solid $white;
       border-left: 2px solid $white;
       border-right: 2px solid $white;
-    };
-  };
-  h3{
+    }
+  }
+  h1 {
+    text-transform: uppercase;
+  }
+  h3 {
     color: $red;
   }
 }
-.menu{
-  
-}
 
-
-.draw-container{
+.draw-container {
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #39405E;
+  background-color: #39405e;
 }
-
-
