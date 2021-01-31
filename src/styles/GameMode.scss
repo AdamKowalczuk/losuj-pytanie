@@ -15,11 +15,11 @@ $white: #fbfbfa;
     padding: 20px;
     cursor: pointer;
   }
-  //   .player-number-container:nth-child(1) {
-  //     color: $white;
-  //     padding: 20px;
-  //     cursor: pointer;
-  //   }
+  .player-number-container:nth-child(1) {
+    color: $white;
+    padding: 20px;
+    cursor: pointer;
+  }
   .player-number {
     font-size: 15vw;
   }

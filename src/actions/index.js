@@ -19,3 +19,26 @@ export const setMode = (mode) => {
         payload: mode
     }
 };
+
+export const setExp = (exp) => {
+    return {
+        type: 'SET_EXP',
+        payload: exp
+    }
+};
+
+export const setLevel = (level) => {
+    return {
+        type: 'SET_LEVEL',
+        payload: level
+    }
+};
+
+export const setRequiredExp= (requiredExp) => {
+    return {
+        type: 'SET_REQUIRED_EXP',
+        payload: requiredExp
+    }
+};
+
+

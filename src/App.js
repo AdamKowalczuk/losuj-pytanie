@@ -6,23 +6,35 @@ import React from 'react'
 import GameMode from './components/GameMode'
 
 import { useSelector, useDispatch } from 'react-redux'
-import { setActualQuestion } from './actions/index'
+import { setActualQuestion,setExp,setLevel, setRequiredExp } from './actions/index'
+
+
+
 
 export default function App() {
   const actualQuestion = useSelector(state => state.actualQuestion);
   const category = useSelector(state => state.category);
   const mode= useSelector(state => state.mode);
+  const exp= useSelector(state => state.exp);
+  // const level= useSelector(state => state.level);
+  const requiredExp= useSelector(state => state.requiredExp);
   const dispatch = useDispatch();
+
+  function changeLevel() {
+    if(exp>=requiredExp-1){
+      dispatch(setLevel(1))
+      dispatch(setRequiredExp(1.2))
+      dispatch(setExp(-exp))
+    }
+  }
   return (
   <>
     <div className="App">
     {(() => {
-
       if(mode===''){
         return(
         <GameMode/>
         );
-
       }
       else if(mode==='singleplayer'){
         return(
@@ -33,12 +45,11 @@ export default function App() {
               <h1>{category.categoryPl}</h1>
             </div>
             <h3>{actualQuestion.description}</h3>
-            <button className="btn btn-main" onClick={() => dispatch(setActualQuestion(category.categoryEn))}>
+            <button className="btn btn-main" onClick={() => {dispatch(setActualQuestion(category.categoryEn));dispatch(setExp(1));changeLevel()}}>
               Losuj
             </button>
           </div>
         </>);
-
       }
       else{
         return(
