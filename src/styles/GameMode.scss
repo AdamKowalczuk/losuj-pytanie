@@ -1,0 +1,29 @@
+$red: #f15d71;
+$dark: #39405e;
+$white: #fbfbfa;
+
+.gamemode-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: $dark;
+  color: $red;
+  .player-number-container {
+    padding: 20px;
+    cursor: pointer;
+  }
+  .player-number {
+    font-size: 15vw;
+  }
+}
+
+@media screen and (max-width: 759px) {
+  .gamemode-container {
+    .player-number {
+      font-size: 30vw;
+    }
+  }
+}
