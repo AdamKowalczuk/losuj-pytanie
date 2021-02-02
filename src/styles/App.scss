@@ -8,7 +8,7 @@ body {
 .App {
   text-align: center;
   width: 100vw;
-  height: 100vh;
+  // height: 100vh;
   font-size: 24px;
   color: $white;
   font-family: "Oswald", sans-serif;
@@ -31,6 +31,11 @@ body {
   h3 {
     color: $red;
   }
+}
+.achievements-container {
+  position: fixed;
+  right: 0;
+  top: 0;
 }
 
 .draw-container {

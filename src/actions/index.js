@@ -41,4 +41,10 @@ export const setRequiredExp= (requiredExp) => {
     }
 };
 
+export const setAchievementsOpen= () => {
+    return {
+        type: 'SET_IS_ACHIEVEMENTS_OPEN',
+    }
+};
+
 

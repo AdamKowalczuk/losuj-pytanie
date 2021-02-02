@@ -4,9 +4,10 @@ import './styles/nav.scss';
 import Nav from './components/Nav';
 import React from 'react'
 import GameMode from './components/GameMode'
+import Achievements from './components/Achievements'
 
 import { useSelector, useDispatch } from 'react-redux'
-import { setActualQuestion,setExp,setLevel, setRequiredExp } from './actions/index'
+import { setAchievementsOpen,setActualQuestion,setExp,setLevel, setRequiredExp } from './actions/index'
 
 
 
@@ -18,6 +19,7 @@ export default function App() {
   const exp= useSelector(state => state.exp);
   // const level= useSelector(state => state.level);
   const requiredExp= useSelector(state => state.requiredExp);
+  const isAchievementsOpen= useSelector(state => state.isAchievementsOpen);
   const dispatch = useDispatch();
 
   function changeLevel() {
@@ -39,16 +41,25 @@ export default function App() {
       else if(mode==='singleplayer'){
         return(
         <>
-          <Nav/>
-          <div className="draw-container">
-            <div className="h1-box">
-              <h1>{category.categoryPl}</h1>
+
+          {isAchievementsOpen===false ?
+          <>
+            <Nav/>
+            <div className="draw-container">
+              <div className="h1-box">
+                <h1>{category.categoryPl}</h1>
+              </div>
+              <h3>{actualQuestion.description}</h3>
+              <button className="btn btn-main" onClick={() => {dispatch(setExp(1));changeLevel();dispatch(setActualQuestion(category.categoryEn))}}>
+                Losuj
+              </button>
             </div>
-            <h3>{actualQuestion.description}</h3>
-            <button className="btn btn-main" onClick={() => {dispatch(setActualQuestion(category.categoryEn));dispatch(setExp(1));changeLevel()}}>
-              Losuj
-            </button>
+            </>
+          : <Achievements/>}
+          <div className="menu-box achievements-container" onClick={() => {dispatch(setAchievementsOpen())}}>
+            <div className="menu"><i className="fas fa-trophy"></i></div>
           </div>
+
         </>);
       }
       else{

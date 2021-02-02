@@ -1,0 +1,50 @@
+$red: #f15d71;
+$dark: #39405e;
+$white: #fbfbfa;
+
+.achievements {
+  height: auto;
+  width: 100%;
+  background-color: $dark;
+  h2,
+  h3 {
+    margin: 0;
+    padding: 10px;
+  }
+  h3{
+    color: $white;
+  }
+  h2{
+    color: $red;
+  }
+  .achievements-top{
+    top: 0;
+    height: 30vh;
+    width: 100%;
+    position: fixed;
+    background-color: $dark;
+  }
+  .achievements-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8,1fr);
+    gap: 10px 0px;
+    margin-top: 30vh;
+    min-height: 70vh;
+    .achievements-item {
+      padding: 10px 0px 10px 10px;
+      display: flex;
+      h3 {
+        font-size: 24px;
+      }
+      i {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: $red;
+        font-size: 50px;
+      }
+    }
+  }
+}

@@ -6,6 +6,7 @@ import modeReducer from './mode';
 import requiredExpReducer from './requiredExp';
 import expReducer from './exp';
 import levelReducer from './level';
+import isAchievementsOpenReducer from './isAchievementsOpen'
 
 const allReducers = combineReducers({
     actualQuestion: actualQuestionReducer,
@@ -13,7 +14,8 @@ const allReducers = combineReducers({
     mode:modeReducer,
     exp:expReducer,
     level:levelReducer,
-    requiredExp:requiredExpReducer
+    requiredExp:requiredExpReducer,
+    isAchievementsOpen:isAchievementsOpenReducer,
 })
 
 export default allReducers;

@@ -14,7 +14,7 @@ function setQuestions(categoryEn){
         case 'yesOrNot':
             return yesOrNot;
     }
-    
+
 }
 const actualQuestionReducer = (state = questions, action) => {
 
