@@ -5,11 +5,10 @@ import Nav from './components/Nav';
 import React from 'react'
 import GameMode from './components/GameMode'
 import Achievements from './components/Achievements'
+import { setMode } from './actions/index'
 
 import { useSelector, useDispatch } from 'react-redux'
 import { setAchievementsOpen,setActualQuestion,setExp,setLevel, setRequiredExp } from './actions/index'
-
-
 
 
 export default function App() {
@@ -17,7 +16,6 @@ export default function App() {
   const category = useSelector(state => state.category);
   const mode= useSelector(state => state.mode);
   const exp= useSelector(state => state.exp);
-  // const level= useSelector(state => state.level);
   const requiredExp= useSelector(state => state.requiredExp);
   const isAchievementsOpen= useSelector(state => state.isAchievementsOpen);
   const dispatch = useDispatch();
@@ -56,9 +54,22 @@ export default function App() {
             </div>
             </>
           : <Achievements/>}
-          <div className="menu-box achievements-container" onClick={() => {dispatch(setAchievementsOpen())}}>
-            <div className="menu"><i className="fas fa-trophy"></i></div>
-          </div>
+            {
+            isAchievementsOpen ?
+            <div className="menu-box achievements-container" style={{ top: 0}} onClick={() => {dispatch(setAchievementsOpen())}}>
+            <div className="menu"><i className="fas fa-home"></i></div>
+            </div>
+            :
+            <>
+            <div className="menu-box return" onClick={() => dispatch(setMode(''))}>
+              <div className="menu"><i className="fas fa-undo" ></i></div>
+            </div>
+            <div className="menu-box achievements-container" onClick={() => {dispatch(setAchievementsOpen())}}>
+              <div className="menu"><i className="fas fa-trophy"></i></div>
+            </div>
+            </>
+            }
+
 
         </>);
       }

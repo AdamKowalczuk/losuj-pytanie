@@ -7,7 +7,7 @@ body {
 }
 .App {
   text-align: center;
-  width: 100vw;
+  // width: 100vw;
   // height: 100vh;
   font-size: 24px;
   color: $white;
@@ -33,6 +33,12 @@ body {
   }
 }
 .achievements-container {
+  position: fixed;
+  right: 0;
+  top: 85px;
+
+}
+.return{
   position: fixed;
   right: 0;
   top: 0;
