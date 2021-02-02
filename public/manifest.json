@@ -13,12 +13,6 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable any"
-    },
-    {
-      "src": "icons/Taskmania897x897.png",
-      "sizes": "897x899",
-      "type": "image/png",
-      "purpose": "maskable any"
     }
   ],
   "display": "standalone",
