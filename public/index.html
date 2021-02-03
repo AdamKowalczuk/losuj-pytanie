@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
+  <meta charset="UTF-8" />
   <title>Zadaj pytanie</title>
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -30,8 +30,12 @@
   <div id="root"></div>
   <script>
 
+    // if ('serviceWorker' in navigator) {
+    //       navigator.serviceWorker.register("/service-worker.js");
+
+    // }
     if ('serviceWorker' in navigator) {
-          navigator.serviceWorker.register("/service-worker.js");
+      navigator.serviceWorker.register("%PUBLIC_URL%/service-worker.js");
 
     }
   </script>
