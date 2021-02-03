@@ -1,4 +1,5 @@
 
+
 // Names of the two caches used in this version of the service worker.
 // Change to v2, etc. when you update any of the local resources, which will
 // in turn trigger the install event again.
@@ -11,7 +12,14 @@ const PRECACHE_URLS = [
   './', // Alias for index.html
   'styles.css',
   '../../styles/main.css',
-  'demo.js'
+  'demo.js',
+  './styles/App.scss',
+  './styles/button.scss',
+  './styles/nav.scss',
+  './components/Nav',
+  'react',
+  './components/GameMode',
+  './components/Achievements',
 ];
 
 // The install handler takes care of precaching the resources we always need.
