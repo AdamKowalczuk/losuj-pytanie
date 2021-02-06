@@ -4,12 +4,14 @@ import { useSelector } from 'react-redux'
 export default function Achievements() {
     const counter = useSelector(state => state.counter);
     const level = useSelector(state => state.level);
+    const exp = useSelector(state => state.exp);
+    const requiredExp = useSelector(state => state.requiredExp);
     return (
         <>
             <div className="achievements">
                 <div className="achievements-top">
-                    <h2>Poziom 2</h2>
-                    <h3>Doświadczenie 2/10</h3>
+                    <h2>Poziom {level}</h2>
+                    <h3>Doświadczenie {exp}/{requiredExp}</h3>
                     <h2>Osiągnięcia</h2>
                 </div>
 {/* dodaj datę do Osiągnięcia */}
