@@ -47,4 +47,11 @@ export const setAchievementsOpen= () => {
     }
 };
 
+export const increment= (number) => {
+    return {
+        type: 'INCEREMENT',
+        payload:number
+    }
+};
+
 

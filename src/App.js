@@ -8,7 +8,7 @@ import Achievements from './components/Achievements'
 import { setMode } from './actions/index'
 
 import { useSelector, useDispatch } from 'react-redux'
-import { setAchievementsOpen,setActualQuestion,setExp,setLevel, setRequiredExp } from './actions/index'
+import { setAchievementsOpen,setActualQuestion,setExp,setLevel, setRequiredExp,increment } from './actions/index'
 
 
 export default function App() {
@@ -48,7 +48,7 @@ export default function App() {
                 <h1>{category.categoryPl}</h1>
               </div>
               <h3>{actualQuestion.description}</h3>
-              <button className="btn btn-main" onClick={() => {dispatch(setExp(1));changeLevel();dispatch(setActualQuestion(category.categoryEn))}}>
+              <button className="btn btn-main" onClick={() => {dispatch(increment(1));dispatch(setExp(1));changeLevel();dispatch(setActualQuestion(category.categoryEn))}}>
                 Losuj
               </button>
             </div>
@@ -69,8 +69,6 @@ export default function App() {
             </div>
             </>
             }
-
-
         </>);
       }
       else{

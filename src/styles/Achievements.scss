@@ -23,11 +23,13 @@ $white: #fbfbfa;
     width: 100%;
     position: fixed;
     background-color: $dark;
+    z-index: 900;
   }
   .achievements-list {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8,1fr);
+    justify-items: center;
     gap: 10px 0px;
     margin-top: 30vh;
     min-height: 70vh;
@@ -47,4 +49,14 @@ $white: #fbfbfa;
       }
     }
   }
+}
+.opacity30{
+  opacity: 30%;
+  order: 2;
+  text-overflow: hidden;
+}
+.opacity50{
+  opacity: 50%;
+  order: 2;
+  text-overflow: hidden;
 }

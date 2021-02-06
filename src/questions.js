@@ -84,25 +84,64 @@ export let music=[
 ];
 export let yesOrNot = [
     {
-        description: "Lubisz zwierzęta?",
+        description: "Czy lubisz filmy erotyczne?",
         isUsed: false,
         categoryPl: "tak czy nie",
         categoryEn:'yesOrNot'
-
     },
     {
         description: "Lubisz fantastykę?",
         isUsed: false,
         categoryPl: "tak czy nie",
         categoryEn:'yesOrNot'
-
     },
     {
         description: "Czy chcesz mieć dzieci?",
         isUsed: false,
         categoryPl: "tak czy nie",
         categoryEn:'yesOrNot'
-
+    },
+    {
+        description: "Czy chciałbyś/chciałabyś schudnąć 15 kg?",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "Czy co roku oglądasz Kevin sam w domu?",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "Czy lubisz horrory?",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "Czy grałeś/grałaś kiedykolwiek w Minecrafta?",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "Czy istnieje przyjaźń damsko-męska?",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "Czy lubisz eksperymentować?",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "Czy lubisz disco polo?",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
     },
 ];
 
