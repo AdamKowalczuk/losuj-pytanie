@@ -12,10 +12,10 @@ $white: #fbfbfa;
     padding: 10px;
   }
   h3{
-    color: $white;
+    color: $white !important;
   }
   h2{
-    color: $red;
+    color: $red !important;
   }
   .achievements-top{
     top: 0;
@@ -52,11 +52,7 @@ $white: #fbfbfa;
 }
 .opacity30{
   opacity: 30%;
-  order: 2;
-  text-overflow: hidden;
 }
 .opacity50{
   opacity: 50%;
-  order: 2;
-  text-overflow: hidden;
 }
