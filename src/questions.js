@@ -145,3 +145,114 @@ export let yesOrNot = [
     },
 ];
 
+
+
+export let crazy = [
+    {
+        description: "Czy lubisz disco polo?",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+];
+
+export let forAdults = [
+    {
+        description: "Czy lubisz disco polo?",
+        isUsed: false,
+        categoryPl: "18+",
+        categoryEn:'forAdults'
+    },
+];
+
+export let philosophical = [
+    {
+        description: "Co byś zrobił/zrobiła gdybyś wygrał/wygrała milion złotych?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Gdzie widzisz siebie za 10 lat?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Czy umówiłbyś/umówiłabyś się z dziewczyną/chłopakiem na wózku inwalidzkim?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Czy mógłbyś/mogłabyś być w związku, w którym mężczyzna jest niższ od kobiety?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "80 tysięcy złotych dla siebie, czy 100 tysięcy na pomoc charytatywną. Co byś wybrał/wybrała?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+
+];
+
+export let whatDoYouPrefer=[
+    {
+        description: "Rock czy rap?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "Shrek 1 czy Shrek 2?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "Dramat czy komedia?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "Mężczyźni czy kobiety?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "Góry czy morze?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "PIS czy PO?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "Psy czy koty?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "Spanie czy bieganie?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "Duże psy czy małe psy?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+]
+
