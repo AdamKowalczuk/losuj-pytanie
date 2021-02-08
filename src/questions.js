@@ -1,87 +1,3 @@
-export let questions = [
-    {
-        description: "Ile masz lat?",
-        isUsed: false,
-        category: "Prywatne",
-
-    },
-    {
-        description: "Jak masz na imię?",
-        isUsed: false,
-        category: "Osobiste",
-
-    },
-    {
-        description: "Czy masz psa?",
-        isUsed: false,
-        category: "Zwierzęce",
-
-    }
-];
-// let generalQuestions = [
-//     {
-//         description: "Czym się interesujesz?",
-//         isUsed: false,
-//         category: "Ogólne",
-
-//     },
-//     {
-//         description: "Jaka jest twoja ulubiona potrawa?",
-//         isUsed: false,
-//         category: "Ogólne",
-
-//     },
-//     {
-//         description: "Czy masz psa?",
-//         isUsed: false,
-//         category: "Ogólne",
-
-//     },
-
-// ];
-
-// let forwardLookingQuestions = [
-//     {
-//         description: "Gdzie widzisz siebie za 10 lat?",
-//         isUsed: false,
-//         category: "Przyszłościowe",
-
-//     },
-//     {
-//         description: "Gdzie chcesz pracować w przyszłości?",
-//         isUsed: false,
-//         category: "Przyszłościowe",
-
-//     },
-//     {
-//         description: "Czy chcesz mieć dzieci?",
-//         isUsed: false,
-//         category: "Przyszłościowe",
-
-//     },
-// ];
-export let music=[
-    {
-        description: "Jaki jest twój ulubiony gatunek muzyczny?",
-        isUsed: false,
-        categoryPl: "muzyka",
-        categoryEn:'music'
-
-    },
-    {
-        description: "Disco polo czy rock?",
-        isUsed: false,
-        categoryPl: "muzyka",
-        categoryEn:'music'
-
-    },
-    {
-        description: "Czy poszedłbyś na koncert metalowy?",
-        isUsed: false,
-        categoryPl: "muzyka",
-        categoryEn:'music'
-    },
-];
 export let yesOrNot = [
     {
         description: "Czy lubisz filmy erotyczne?",
@@ -143,26 +59,57 @@ export let yesOrNot = [
         categoryPl: "tak czy nie",
         categoryEn:'yesOrNot'
     },
+    {
+        description: "Czy umiesz gotować?",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "Czy poszedłbyś/poszłabyś na koncert metalowy?",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    // {
+    //     description: "",
+    //     isUsed: false,
+    //     categoryPl: "tak czy nie",
+    //     categoryEn:'yesOrNot'
+    // },
 ];
 
 
 
 export let crazy = [
     {
-        description: "Czy lubisz disco polo?",
+        description: "Znajomi proponują ci wyprawę autostopem. Masz 5 minut na decyzję. Zgadzasz się czy nie?",
         isUsed: false,
         categoryPl: "zwariowane",
         categoryEn:'crazy'
     },
+    // {
+    //     description: "",
+    //     isUsed: false,
+    //     categoryPl: "zwariowane",
+    //     categoryEn:'crazy'
+    // },
 ];
 
 export let forAdults = [
     {
-        description: "Czy lubisz disco polo?",
+        description: "Czy jesteś dziewicą/prawiczkiem?",
         isUsed: false,
         categoryPl: "18+",
         categoryEn:'forAdults'
     },
+
+    // {
+    //     description: "",
+    //     isUsed: false,
+    //     categoryPl: "18+",
+    //     categoryEn:'forAdults'
+    // },
 ];
 
 export let philosophical = [
@@ -196,6 +143,12 @@ export let philosophical = [
         categoryPl: "filozoficzne",
         categoryEn:'philosophical'
     },
+    // {
+    //     description: "",
+    //     isUsed: false,
+    //     categoryPl: "filozoficzne",
+    //     categoryEn:'philosophical'
+    // },
 
 ];
 
@@ -243,7 +196,7 @@ export let whatDoYouPrefer=[
         categoryEn:'whatDoYouPrefer'
     },
     {
-        description: "Spanie czy bieganie?",
+        description: "Dobry film z piwkiem czy bieganie?",
         isUsed: false,
         categoryPl: "co wolisz",
         categoryEn:'whatDoYouPrefer'
@@ -254,5 +207,17 @@ export let whatDoYouPrefer=[
         categoryPl: "co wolisz",
         categoryEn:'whatDoYouPrefer'
     },
+    {
+        description: "Samochody czy motory?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    // {
+    //     description: "",
+    //     isUsed: false,
+    //     categoryPl: "co wolisz",
+    //     categoryEn:'whatDoYouPrefer'
+    // },
 ]
 
