@@ -54,4 +54,9 @@ export const increment= (number) => {
     }
 };
 
-
+export const changeActive= (number) => {
+    return {
+        type: 'CHANGE_ACTIVE',
+        payload:number
+    }
+};

@@ -1,22 +1,32 @@
-import {questions,yesOrNot,music} from '../questions'
+import {yesOrNot,crazy,forAdults,philosophical,whatDoYouPrefer} from '../questions'
 let availableQuestions = [];
 let category
 let categoryEn
 let randomArray
+let defaultQuestion={
+    description: "Losuj pytanie",
+    isUsed: false,
+    category: "losowe",
+}
 function setQuestions(categoryEn){
     switch(categoryEn){
         case 'random':
-            randomArray=yesOrNot.concat(music)
+            randomArray=yesOrNot.concat(crazy,forAdults,philosophical,whatDoYouPrefer)
             return randomArray;
-        case 'music':
-            console.log("Muzyka:",music);
-            return music;
         case 'yesOrNot':
             return yesOrNot;
+        case 'crazy':
+            return crazy;
+        case 'forAdults':
+            return forAdults;
+        case 'philosophical':
+            return philosophical;
+        case 'whatDoYouPrefer':
+            return whatDoYouPrefer;
     }
 
 }
-const actualQuestionReducer = (state = questions, action) => {
+const actualQuestionReducer = (state = defaultQuestion, action) => {
 
     switch (action.type) {
         case "SET_QUESTIONS":
@@ -24,9 +34,7 @@ const actualQuestionReducer = (state = questions, action) => {
         case "SET_ACTUAL_QUESTION":
             availableQuestions=[]
             category=action.payload
-            console.log(category);
             categoryEn=setQuestions(category)
-            console.log(categoryEn);
             for (let i = 0; i < categoryEn.length; i++) {
                 if (categoryEn[i].isUsed === false) {
                     availableQuestions.push(categoryEn[i])
@@ -41,17 +49,12 @@ const actualQuestionReducer = (state = questions, action) => {
             }
             else {
                 let random = Math.floor(Math.random() * availableQuestions.length);
-                console.log(random);
                 availableQuestions[random].isUsed = true;
                 return availableQuestions[random];
             }
 
         default:
-            return {
-                description: "Losuj pytanie",
-                isUsed: false,
-                category: "losowe",
-            };
+            return state;
     }
 }
 
