@@ -88,6 +88,20 @@ export let crazy = [
         categoryPl: "zwariowane",
         categoryEn:'crazy'
     },
+    {
+        description: "Jaka jest najbardziej zawstydzająca rzecz, jaką kiedykolwiek zrobiłeś/zrobiłaś?",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "Jeśli miałbyś/abyś zarabiać pieniądze nielegalnie, jak byś to zrobił/a?",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+
+
     // {
     //     description: "",
     //     isUsed: false,
@@ -99,6 +113,24 @@ export let crazy = [
 export let forAdults = [
     {
         description: "Czy jesteś dziewicą/prawiczkiem?",
+        isUsed: false,
+        categoryPl: "18+",
+        categoryEn:'forAdults'
+    },
+    {
+        description: "Co może wywrzeć na Tobie największe wrażenie?",
+        isUsed: false,
+        categoryPl: "18+",
+        categoryEn:'forAdults'
+    },
+    {
+        description: "Jaka jest twoja najciemniejsza fantazja?",
+        isUsed: false,
+        categoryPl: "18+",
+        categoryEn:'forAdults'
+    },
+    {
+        description: "Jaka jest najprzyjemniejsza rzecz, jakiej kiedykolwiek doświadczyłeś z inną osobą?",
         isUsed: false,
         categoryPl: "18+",
         categoryEn:'forAdults'
