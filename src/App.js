@@ -27,6 +27,8 @@ export default function App() {
       dispatch(setExp(-exp))
     }
   }
+
+
   return (
   <>
     <div className="App">
@@ -58,6 +60,7 @@ export default function App() {
             isAchievementsOpen ?
             <div className="menu-box achievements-container" style={{ top: 0}} onClick={() => {dispatch(setAchievementsOpen())}}>
             <div className="menu"><i className="fas fa-home"></i></div>
+
             </div>
             :
             <>
@@ -66,6 +69,7 @@ export default function App() {
             </div>
             <div className="menu-box achievements-container" onClick={() => {dispatch(setAchievementsOpen())}}>
               <div className="menu"><i className="fas fa-trophy"></i></div>
+
             </div>
             </>
             }
