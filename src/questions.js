@@ -175,6 +175,61 @@ export let philosophical = [
         categoryPl: "filozoficzne",
         categoryEn:'philosophical'
     },
+    {
+        description: "Gdybyś spotkał/a siebie sprzed pięciu lat – co byś mu powiedział/a?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Gdyby został Ci rok życia – co chciałbyś/chciałabyś zrobić?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Jaka jest zazwyczaj Twoja pierwsza myśl rano?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Czy jest coś, co robisz zupełnie inaczej niż większość ludzi?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Kim jest osoba, która najbardziej Cię inspiruje?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Czy żyjemy w symulacji?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Czy sztuczna inteligencja jest zagrożeniem dla ludzkości?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Czy mężczyźni i kobiety są jeszcze równi?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Czy myślisz, że istnieje życie po śmierci?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+
     // {
     //     description: "",
     //     isUsed: false,
