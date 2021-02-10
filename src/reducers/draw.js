@@ -1,4 +1,4 @@
-import {yesOrNot,crazy,forAdults,philosophical,whatDoYouPrefer} from '../questions'
+import {yesOrNot,crazy,aQuestionNoneAsked,philosophical,whatDoYouPrefer} from '../questions'
 let availableQuestions = [];
 let category
 let categoryEn
@@ -11,14 +11,14 @@ let defaultQuestion={
 function setQuestions(categoryEn){
     switch(categoryEn){
         case 'random':
-            randomArray=yesOrNot.concat(crazy,forAdults,philosophical,whatDoYouPrefer)
+            randomArray=yesOrNot.concat(crazy,aQuestionNoneAsked,philosophical,whatDoYouPrefer)
             return randomArray;
         case 'yesOrNot':
             return yesOrNot;
         case 'crazy':
             return crazy;
-        case 'forAdults':
-            return forAdults;
+        case 'aQuestionNoneAsked':
+            return aQuestionNoneAsked;
         case 'philosophical':
             return philosophical;
         case 'whatDoYouPrefer':

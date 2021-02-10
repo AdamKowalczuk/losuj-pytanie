@@ -71,6 +71,60 @@ export let yesOrNot = [
         categoryPl: "tak czy nie",
         categoryEn:'yesOrNot'
     },
+    {
+        description: "Czy chodzisz do kościoła?",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "Czy tak to nie a nie to tak?",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "Czy lubisz pokemony?",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "Chce ci się teraz spać?",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "Lubisz imprezować?",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "Czy grałeś/aś kiedyś w Metina?",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "Czy oglądasz Szkolę na TVN?",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "Czy lubisz oglądać anime?",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "Ukradłeś kiedyś coś ze sklepu?",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
     // {
     //     description: "",
     //     isUsed: false,
@@ -101,6 +155,42 @@ export let crazy = [
         categoryEn:'crazy'
     },
 
+    {
+        description: "Czy w dzieciństwie miałeś/aś wyimaginowanego przyjaciela?",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "Wymień trzy rzeczy, o których myślisz siedząc na sedesie.",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "Czy kiedykolwiek podkochiwałeś/aś się w swoim nauczyciel?",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "Czy kiedykolwiek próbowałeś/aś karmy dla kota lub ps?",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "Jaki był twój przydomek w dzieciństwie?",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "Czy tańczysz, gdy jesteś sam/a?",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
 
     // {
     //     description: "",
@@ -110,39 +200,108 @@ export let crazy = [
     // },
 ];
 
-export let forAdults = [
+export let aQuestionNoneAsked=[
     {
         description: "Czy jesteś dziewicą/prawiczkiem?",
         isUsed: false,
-        categoryPl: "18+",
-        categoryEn:'forAdults'
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
     },
     {
-        description: "Co może wywrzeć na Tobie największe wrażenie?",
+        description: "Śpisz przy zamkniętej czy otwartej szafie?",
         isUsed: false,
-        categoryPl: "18+",
-        categoryEn:'forAdults'
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
     },
     {
-        description: "Jaka jest twoja najciemniejsza fantazja?",
+        description: "Czy kiedykolwiek załatwiałeś/aś się w krzakach?",
         isUsed: false,
-        categoryPl: "18+",
-        categoryEn:'forAdults'
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
     },
     {
-        description: "Jaka jest najprzyjemniejsza rzecz, jakiej kiedykolwiek doświadczyłeś z inną osobą?",
+        description: "Czy jabłka naprawdę można jeść?",
         isUsed: false,
-        categoryPl: "18+",
-        categoryEn:'forAdults'
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "Dlaczego grube książki są z papieru?",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "Po co kobietom fryzura w czasie snu?",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "Czy można jeść przy jedzeniu?",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "Dlaczego Media Markt nie jest dla idiotów?",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "Dlaczego gdy otwieram szafę, to tam nie ma Narnii?",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "Dlaczego murzyni są czarni?",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
     },
 
     // {
     //     description: "",
     //     isUsed: false,
-    //     categoryPl: "18+",
-    //     categoryEn:'forAdults'
+    //     categoryPl: "Pytania, których nikt nie zadaje",
+    //     categoryEn:'aQuestionNoneAsked'
     // },
-];
+]
+// export let forAdults = [
+//     {
+//         description: "Czy jesteś dziewicą/prawiczkiem?",
+//         isUsed: false,
+//         categoryPl: "18+",
+//         categoryEn:'forAdults'
+//     },
+//     {
+//         description: "Co może wywrzeć na Tobie największe wrażenie?",
+//         isUsed: false,
+//         categoryPl: "18+",
+//         categoryEn:'forAdults'
+//     },
+//     {
+//         description: "Jaka jest twoja najciemniejsza fantazja?",
+//         isUsed: false,
+//         categoryPl: "18+",
+//         categoryEn:'forAdults'
+//     },
+//     {
+//         description: "Jaka jest najprzyjemniejsza rzecz, jakiej kiedykolwiek doświadczyłeś z inną osobą?",
+//         isUsed: false,
+//         categoryPl: "18+",
+//         categoryEn:'forAdults'
+//     },
+
+//     // {
+//     //     description: "",
+//     //     isUsed: false,
+//     //     categoryPl: "18+",
+//     //     categoryEn:'forAdults'
+//     // },
+// ];
 
 export let philosophical = [
     {
