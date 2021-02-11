@@ -60,3 +60,18 @@ export const changeActive= (number) => {
         payload:number
     }
 };
+
+export const setPlayers= (name) => {
+    return {
+        type: 'SET_PLAYERS',
+        payload:name
+    }
+};
+
+export const addPlayer= (number) => {
+    return {
+        type: 'ADD_PLAYER',
+        payload:number
+    }
+};
+

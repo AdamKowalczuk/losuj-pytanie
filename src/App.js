@@ -5,6 +5,8 @@ import Nav from './components/Nav';
 import React from 'react'
 import GameMode from './components/GameMode'
 import Achievements from './components/Achievements'
+import Multiplayer from './components/Multiplayer'
+
 import { setMode } from './actions/index'
 
 import { useSelector, useDispatch } from 'react-redux'
@@ -76,12 +78,7 @@ export default function App() {
         </>);
       }
       else{
-        return(
-        <>
-          <div className="draw-container">
-            <h1 >Siema frajerze </h1>
-          </div>
-        </>);
+        return(<Multiplayer/>);
       }
     })()}
     </div>
