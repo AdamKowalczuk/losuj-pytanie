@@ -11,6 +11,8 @@ import counterReducer from './counter';
 import playersReducer from './players';
 import playersNumberReducer from './playersNumber';
 import previousActiveReducer from './previousActive';
+import isStartedReducer from './isStarted';
+import actualPlayerReducer from './actualPlayer';
 
 const allReducers = combineReducers({
     actualQuestion: actualQuestionReducer,
@@ -23,7 +25,9 @@ const allReducers = combineReducers({
     counter:counterReducer,
     previousActive:previousActiveReducer,
     players:playersReducer,
-    playersNumber:playersNumberReducer
+    playersNumber:playersNumberReducer,
+    isStarted:isStartedReducer,
+    actualPlayer:actualPlayerReducer
 
 })
 

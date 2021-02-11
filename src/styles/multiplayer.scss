@@ -11,3 +11,33 @@ $white: #fbfbfa;
         font-size: 36px;
     }
 }
+.input-container{
+    width:50%;
+    margin-left: 25%;
+    height: 60vh;
+    margin-top: 10vh;
+    // color: $red;
+    // border-color: $red;
+    .mui-textfield>label{
+        overflow: hidden;
+    }
+    .mui-textfield>input, .mui-textfield>textarea{
+        border-color: $red;
+    }
+    .mui-textfield--float-label>label{
+        color: $red;
+    }
+    .mui-textfield>input, .mui-textfield>textarea:focus{
+        color: $red;
+    }
+    .mui-textfield--float-label>input:not(:focus).mui--is-not-empty~label, .mui-textfield--float-label>input:not(:focus):not(:empty):not(.mui--is-empty):not(.mui--is-not-empty)~label, .mui-textfield--float-label>input:not(:focus)[value]:not([value=""]):not(.mui--is-empty):not(.mui--is-not-empty)~label, .mui-textfield--float-label>textarea:not(:focus).mui--is-not-empty~label, .mui-textfield--float-label>textarea:not(:focus):not(:empty):not(.mui--is-empty):not(.mui--is-not-empty)~label, .mui-textfield--float-label>textarea:not(:focus)[value]:not([value=""]):not(.mui--is-empty):not(.mui--is-not-empty)~label{
+        color:$red
+    }
+    .mui-textfield--float-label>input:not(:focus).mui--is-not-empty~label{
+        color: $white;
+    }
+    .mui-textfield--float-label>input:focus.mui--is-not-empty~label,.mui-textfield--float-label>input:focus.mui--is-empty~label{
+        color: $white;
+    }
+
+}

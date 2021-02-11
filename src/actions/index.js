@@ -80,4 +80,26 @@ export const deletePlayer= () => {
     }
 };
 
+export const changeName= (e,id) => {
+    return {
+        type: 'CHANGE_NAME',
+        payload:e.target.value,
+        id:id,
+    }
+};
+
+export const startGame= () => {
+    return {
+        type: 'START_GAME',
+    }
+};
+export const changeActualPlayer= (id) => {
+    return {
+        type: 'CHANGE_ACTUAL_PLAYER',
+        payload:id
+    }
+};
+
+
+
 
