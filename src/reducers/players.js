@@ -1,29 +1,25 @@
 let players=[
     {
         name:'Gracz 1',
-        isActive:true,
+        // isActive:true,
     },
-    {
-        name:'Gracz 2',
-        isActive:true,
-    },
-    {
-        name:'Gracz 3',
-        isActive:false,
-    },
-    {
-        name:'Gracz 4',
-        isActive:false,
-    }
-];
 
+];
+let newPlayers;
 
 const playersReducer = (state = players, action) => {
 
     switch (action.type) {
         case "SET_PLAYERS":
-            return action.payload;
-
+            newPlayers=players;
+            newPlayers.push({
+                name:action.payload,
+            },);
+            return newPlayers;
+        case "DELETE_PLAYER":
+            newPlayers=players;
+            newPlayers.pop();
+            return newPlayers;
         default:
             return state
     }

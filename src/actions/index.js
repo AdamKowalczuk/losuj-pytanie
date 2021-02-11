@@ -74,4 +74,10 @@ export const addPlayer= (number) => {
         payload:number
     }
 };
+export const deletePlayer= () => {
+    return {
+        type: 'DELETE_PLAYER',
+    }
+};
+
 
