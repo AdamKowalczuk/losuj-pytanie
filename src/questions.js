@@ -125,6 +125,77 @@ export let yesOrNot = [
         categoryPl: "tak czy nie",
         categoryEn:'yesOrNot'
     },
+    {
+        description: "Czy programiści to nerdy?",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },{
+        description: "",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
     // {
     //     description: "",
     //     isUsed: false,
@@ -191,7 +262,78 @@ export let crazy = [
         categoryPl: "zwariowane",
         categoryEn:'crazy'
     },
-
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
     // {
     //     description: "",
     //     isUsed: false,
@@ -261,7 +403,78 @@ export let aQuestionNoneAsked=[
         categoryPl: "Pytania, których nikt nie zadaje",
         categoryEn:'aQuestionNoneAsked'
     },
-
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
     // {
     //     description: "",
     //     isUsed: false,
@@ -269,39 +482,7 @@ export let aQuestionNoneAsked=[
     //     categoryEn:'aQuestionNoneAsked'
     // },
 ]
-// export let forAdults = [
-//     {
-//         description: "Czy jesteś dziewicą/prawiczkiem?",
-//         isUsed: false,
-//         categoryPl: "18+",
-//         categoryEn:'forAdults'
-//     },
-//     {
-//         description: "Co może wywrzeć na Tobie największe wrażenie?",
-//         isUsed: false,
-//         categoryPl: "18+",
-//         categoryEn:'forAdults'
-//     },
-//     {
-//         description: "Jaka jest twoja najciemniejsza fantazja?",
-//         isUsed: false,
-//         categoryPl: "18+",
-//         categoryEn:'forAdults'
-//     },
-//     {
-//         description: "Jaka jest najprzyjemniejsza rzecz, jakiej kiedykolwiek doświadczyłeś z inną osobą?",
-//         isUsed: false,
-//         categoryPl: "18+",
-//         categoryEn:'forAdults'
-//     },
 
-//     // {
-//     //     description: "",
-//     //     isUsed: false,
-//     //     categoryPl: "18+",
-//     //     categoryEn:'forAdults'
-//     // },
-// ];
 
 export let philosophical = [
     {
@@ -388,6 +569,168 @@ export let philosophical = [
         categoryPl: "filozoficzne",
         categoryEn:'philosophical'
     },
+    {
+        description: "Czy wszyscy widzimy kolory tak samo?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Co jest największym problemem ludzkości?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Czy sztuczna inteligencja jest zagrożeniem dla ludzkości?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Dlaczego ludzie są rasistami?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Co chciałbyś zmienić w systemie szkolnym?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Co jest niczym?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Co czeka nas po śmierci?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Dlaczego ludzie do podwójnego cheeseburgera, dużej porcji frytek zamawiają Colę Light?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Dlaczego instytucje, które są otwarte 24 godziny na dobę mają klucze?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Czy wierzysz w reinkarnację ?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Czy w kosmosie jest życie?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Jaka jest najdziwniejsza teoria w którą wierzysz?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Czego żałowałbyś gdybyś umarł jutro?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Czy piramidy zbudowali ludzie?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Jak wielki jest kosmos?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Czy wszystko ma swój koniec?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Czy podróże w czasie istnieją?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Wierzysz w duchy?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Jak wygląda Twoim zdaniem piekło ?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Co się dzieje z duszą po śmierci?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Jaki jest największy problem ludzi?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Jaki żywioł stanowi największe zagrożenie?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Jaki jest najprzydatniejszy wynalazek ludzkości?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "W jakim miejscu na Ziemi żyje się najlepiej?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Która osobistość ma zły wpływ na społeczność?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Czy sztuczna inteligencja jest potrzebna?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
+    {
+        description: "Co byś zrobił gdyby czas się zatrzymał dla wszystkich, oprócz Ciebie?",
+        isUsed: false,
+        categoryPl: "filozoficzne",
+        categoryEn:'philosophical'
+    },
 
     // {
     //     description: "",
@@ -395,7 +738,6 @@ export let philosophical = [
     //     categoryPl: "filozoficzne",
     //     categoryEn:'philosophical'
     // },
-
 ];
 
 export let whatDoYouPrefer=[
@@ -455,6 +797,126 @@ export let whatDoYouPrefer=[
     },
     {
         description: "Samochody czy motory?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "Polskie filmy czy zagraniczne?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "Śmierdzieć cebulą przez 5 lat czy mieć koszmary przez 5 lat?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "Być z kimś, kogo nie kochasz, czy być z kimś, kto nie kocha Ciebie?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "Dować prezenty czy dostawać prezenty?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "Być głuchym czy niewidomym?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "Spać w piżamie czy nago?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "Pójść na domówkę czy pojechać na koncert?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "Herbata z cukrem czy bez?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "",
         isUsed: false,
         categoryPl: "co wolisz",
         categoryEn:'whatDoYouPrefer'

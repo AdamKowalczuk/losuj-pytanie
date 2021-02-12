@@ -9,7 +9,7 @@ body {
   text-align: center;
   // width: 100vw;
   // height: 100vh;
-  font-size: 24px;
+  font-size: 24px ;
   color: $white;
   font-family: "Oswald", sans-serif;
 }
@@ -54,3 +54,13 @@ body {
   background-color: #39405e;
 }
 
+.mui--text-headline, h2,.mui--text-title{
+  font-weight: bold;
+  font-size: 1.5em ;
+  font-family: "Oswald", sans-serif;
+}
+h3{
+  font-size: 1.17em;
+  font-weight: bold;
+  line-height: 28px;
+}

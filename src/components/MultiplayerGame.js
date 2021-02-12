@@ -25,12 +25,6 @@ export default function MultiplayerGame() {
                         )
                     })}
 
-                    {/* <div className="result">
-                        <div className="results-name"></div>
-                    </div>
-                    <div className="result"></div>
-                    <div className="result"></div>
-                    <div className="result"></div> */}
                 </div>
             </div>
         </>

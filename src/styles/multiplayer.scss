@@ -8,36 +8,70 @@ $white: #fbfbfa;
     background-color: $dark;
     h3{
         margin: 0;
+        padding-top: 20px;
         font-size: 36px;
+    }
+    .multiplayer-input{
+        margin-top: 7vh;
+    }
+    .button-container{
+        margin-top: 10vh;
+
+    }
+    .btn-add{
+        border-color: $white;
+        border-style: dotted;
+        color: $red;
+        margin-right: 10px;
+    }
+    .btn-delete{
+        background-color: $red;
+        color: $white;
+        border-color: $red;
+        border-style: dotted;
+        margin-left: 10px;
     }
 }
 .input-container{
     width:50%;
     margin-left: 25%;
-    height: 60vh;
+    height: auto;
     margin-top: 10vh;
-    // color: $red;
     // border-color: $red;
-    .mui-textfield>label{
-        overflow: hidden;
-    }
+    // .mui-textfield>label{
+
+    //     font-size: 1.3rem;
+    // }
     .mui-textfield>input, .mui-textfield>textarea{
         border-color: $red;
     }
     .mui-textfield--float-label>label{
         color: $red;
+        font-size: 1.3rem;
+        overflow: hidden;
     }
     .mui-textfield>input, .mui-textfield>textarea:focus{
         color: $red;
+        font-size: 1.3rem;
     }
     .mui-textfield--float-label>input:not(:focus).mui--is-not-empty~label, .mui-textfield--float-label>input:not(:focus):not(:empty):not(.mui--is-empty):not(.mui--is-not-empty)~label, .mui-textfield--float-label>input:not(:focus)[value]:not([value=""]):not(.mui--is-empty):not(.mui--is-not-empty)~label, .mui-textfield--float-label>textarea:not(:focus).mui--is-not-empty~label, .mui-textfield--float-label>textarea:not(:focus):not(:empty):not(.mui--is-empty):not(.mui--is-not-empty)~label, .mui-textfield--float-label>textarea:not(:focus)[value]:not([value=""]):not(.mui--is-empty):not(.mui--is-not-empty)~label{
-        color:$red
+        color:$red;
+        font-size: 1rem;
     }
     .mui-textfield--float-label>input:not(:focus).mui--is-not-empty~label{
         color: $white;
+        font-size: 1rem;
     }
     .mui-textfield--float-label>input:focus.mui--is-not-empty~label,.mui-textfield--float-label>input:focus.mui--is-empty~label{
         color: $white;
+        font-size: 1rem;
     }
+}
+@media screen and (max-width: 759px){
+    .multiplayer{
 
+        .multiplayer-input{
+            margin-top: 0vh;
+        }
+    }
 }

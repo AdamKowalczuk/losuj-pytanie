@@ -71,7 +71,6 @@ export default function App() {
             </div>
             <div className="menu-box achievements-container" onClick={() => {dispatch(setAchievementsOpen())}}>
               <div className="menu"><i className="fas fa-trophy"></i></div>
-
             </div>
             </>
             }
