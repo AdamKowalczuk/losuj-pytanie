@@ -12,12 +12,20 @@ body {
   font-size: 24px ;
   color: $white;
   font-family: "Oswald", sans-serif;
+  h1{
+    font-weight: bold;
+    font-size: 2em;
+  }
+  h3{
+    font-size: 1.17em;
+    font-weight: bold;
+  }
 }
 .draw-container {
   .h1-box {
     color: $red;
     h1 {
-      padding: 10px;
+      padding: 20px;
       margin-bottom: 0;
       border-bottom: 2px solid $white;
       border-top: 2px solid $white;
