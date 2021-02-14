@@ -2,7 +2,7 @@ import React from 'react';
 import Input from "muicss/lib/react/input";
 import '../styles/multiplayer.scss';
 import {useSelector, useDispatch } from 'react-redux'
-import Nav from './Nav';
+import NavMultiplayer from './NavMultiplayer'
 import MultiplayerGame from './MultiplayerGame'
 import { addPlayer,setPlayers,deletePlayer,changeName,startGame,setMode} from '../actions/index'
 
@@ -14,7 +14,7 @@ export default function Multiplayer() {
 
     return (
         <>
-            {isStarted ? <><Nav/><MultiplayerGame/></> :
+            {isStarted ? <><NavMultiplayer/><MultiplayerGame/></> :
             <div className="multiplayer">
 
                 <h3>Dodaj graczy</h3>

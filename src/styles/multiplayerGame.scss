@@ -9,18 +9,18 @@ $white: #fbfbfa;
     h2,h3{
         margin: 0;
     }
-    .results-container{
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        background: $red;
+    // .results-container{
+    //     position: absolute;
+    //     bottom: 0;
+    //     width: 100%;
+    //     background: $red;
 
-        z-index: 0;
-        display: flex;
-        justify-content:space-evenly;
-        align-items: flex-start;
-        overflow: hidden;
-    }
+    //     z-index: 0;
+    //     display: flex;
+    //     justify-content:space-evenly;
+    //     align-items: flex-start;
+    //     overflow: hidden;
+    // }
 
 }
 

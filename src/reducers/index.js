@@ -13,6 +13,8 @@ import playersNumberReducer from './playersNumber';
 import previousActiveReducer from './previousActive';
 import isStartedReducer from './isStarted';
 import actualPlayerReducer from './actualPlayer';
+import isCategorySelectedReducer from './isCategorySelected';
+import isMenuDisabledReducer from './isMenuDisabled';
 
 const allReducers = combineReducers({
     actualQuestion: actualQuestionReducer,
@@ -27,7 +29,9 @@ const allReducers = combineReducers({
     players:playersReducer,
     playersNumber:playersNumberReducer,
     isStarted:isStartedReducer,
-    actualPlayer:actualPlayerReducer
+    actualPlayer:actualPlayerReducer,
+    isCategorySelected:isCategorySelectedReducer,
+    isMenuDisabled:isMenuDisabledReducer,
 
 })
 

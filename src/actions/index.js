@@ -99,6 +99,19 @@ export const changeActualPlayer= (id) => {
         payload:id
     }
 };
+export const setCategoryToActive= () => {
+    return {
+        type: 'SET_CATEGORY_TO_ACTIVE',
+    }
+};
+
+export const disableMenu= () => {
+    return {
+        type: 'DISABLE_MENU',
+    }
+};
+
+
 
 
 

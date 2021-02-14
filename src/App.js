@@ -6,11 +6,8 @@ import React from 'react'
 import GameMode from './components/GameMode'
 import Achievements from './components/Achievements'
 import Multiplayer from './components/Multiplayer'
-
-import { setMode } from './actions/index'
-
 import { useSelector, useDispatch } from 'react-redux'
-import { setAchievementsOpen,setActualQuestion,setExp,setLevel, setRequiredExp,increment } from './actions/index'
+import { setAchievementsOpen,setActualQuestion,setExp,setLevel, setRequiredExp,increment,setMode } from './actions/index'
 
 
 export default function App() {
@@ -29,8 +26,6 @@ export default function App() {
       dispatch(setExp(-exp))
     }
   }
-
-
   return (
   <>
     <div className="App">
