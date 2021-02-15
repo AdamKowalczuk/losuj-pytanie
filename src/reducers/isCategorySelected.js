@@ -1,6 +1,4 @@
-
 const isCategorySelectedReducer = (state = false, action) => {
-
     switch (action.type) {
         case "SET_CATEGORY_TO_ACTIVE":
             return !state;
@@ -8,5 +6,4 @@ const isCategorySelectedReducer = (state = false, action) => {
             return state
     }
 }
-
 export default isCategorySelectedReducer;

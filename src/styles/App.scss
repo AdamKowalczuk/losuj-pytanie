@@ -5,8 +5,6 @@ body {
 }
 .App {
   text-align: center;
-  // width: 100vw;
-  // height: 100vh;
   font-size: 24px ;
   color: $white;
   font-family: "Oswald", sans-serif;
@@ -25,10 +23,7 @@ body {
     h1 {
       padding: 20px;
       margin-bottom: 0;
-      border-bottom: 2px solid $white;
-      border-top: 2px solid $white;
-      border-left: 2px solid $white;
-      border-right: 2px solid $white;
+      border: 3px solid $white;
     }
   }
   h1 {

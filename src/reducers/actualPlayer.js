@@ -1,6 +1,4 @@
-
 const actualPlayerReducer = (state = 0, action) => {
-
     switch (action.type) {
         case "CHANGE_ACTUAL_PLAYER":
             if(state===action.payload-1){
@@ -10,10 +8,8 @@ const actualPlayerReducer = (state = 0, action) => {
             else{
                 return state+1;
             }
-
         default:
             return state
     }
 }
-
 export default actualPlayerReducer;

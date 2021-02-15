@@ -1,5 +1,4 @@
 const counterReducer = (state = 0, action) => {
-
     switch (action.type) {
         case "INCEREMENT":
             return state+action.payload;
@@ -7,5 +6,4 @@ const counterReducer = (state = 0, action) => {
             return state
     }
 }
-
 export default counterReducer;

@@ -1,7 +1,9 @@
-import React from 'react'
-import {useSelector,useDispatch} from 'react-redux'
-import '../styles/multiplayerGame.scss'
-import { changeActualPlayer,setActualQuestion,setExp,setLevel, setRequiredExp,increment,setCategoryToActive} from '../actions/index'
+import React from 'react';
+import {useSelector,useDispatch} from 'react-redux';
+import '../styles/multiplayerGame.scss';
+import Achievements from './Achievements'
+import NavMultiplayer from './NavMultiplayer'
+import { setActualQuestion,setExp,setLevel, setRequiredExp,increment,setMode,setAchievementsOpen,setCategoryToActive,changeActualPlayer, disableMenu} from '../actions/index'
 export default function MultiplayerGame() {
     const actualQuestion = useSelector(state => state.actualQuestion);
     const category = useSelector(state => state.category);
@@ -11,6 +13,7 @@ export default function MultiplayerGame() {
     const isCategorySelected= useSelector(state => state.isCategorySelected);
     const exp= useSelector(state => state.exp);
     const requiredExp= useSelector(state => state.requiredExp);
+    const isAchievementsOpen= useSelector(state => state.isAchievementsOpen);
     const dispatch = useDispatch();
 
     function changeLevel() {
@@ -23,40 +26,56 @@ export default function MultiplayerGame() {
     return (
         <>
             <div className="multiplayer-game">
-
-                {/* <button className="btn" onClick={()=>{dispatch(changeActualPlayer(playersNumber))}}>Kolejny gracz</button> */}
+            {
+                isAchievementsOpen===false
+                ?
+                <>
+                <NavMultiplayer/>
                 <div className="draw-container">
-
                     {
                     isCategorySelected ?
                     <>
                         <h2>Tura gracza</h2>
-                        <h3>{players[actualPlayer].name}</h3>
+                        <h3 className="player-name">{players[actualPlayer].name}</h3>
                         <div className="h1-box">
                             <h1>{category.categoryPl}</h1>
                         </div>
                         <h3>{actualQuestion.description}</h3>
-                        <button className="btn btn-main" onClick={() => {dispatch(increment(1));dispatch(setExp(1));changeLevel();dispatch(setActualQuestion(category.categoryEn))}}>
-                        Losuj
-                        </button>
-                        <button className="btn" onClick={()=>{dispatch(changeActualPlayer(playersNumber))}}>Kolejny gracz</button>
+                        {
+                            actualPlayer===(playersNumber-1)
+                            ?
+                            <button className="btn btn-main" onClick={() => {dispatch(increment(1));dispatch(setExp(1));dispatch(changeActualPlayer(playersNumber));changeLevel();dispatch(setActualQuestion(category.categoryEn));dispatch(setCategoryToActive());dispatch(disableMenu())}}>
+                                Zakończ rundę
+                            </button>
+                            :
+                            <button className="btn btn-main" onClick={() => {dispatch(increment(1));dispatch(setExp(1));dispatch(changeActualPlayer(playersNumber));changeLevel();dispatch(setActualQuestion(category.categoryEn))}}>
+                                Kolejny gracz
+                            </button>
+                        }
                     </>
                     :
-                    <button className="btn" onClick={()=>{dispatch(setCategoryToActive())}}>Wybierz kategorię</button>
+                    <h2>Wybierz kategorię</h2>
                     }
                 </div>
-
-
-                {/* <div className="results-container">
-                    {players.map((player,id) => {
-                        return (
-                            <div className="result" key={id}>
-                                <div className="results-name">{players[id].name}</div>
-                                <div className="results-points">{players[id].points}</div>
-                            </div>
-                        )
-                    })}
-                </div> */}
+                </>
+                :
+                <Achievements/>
+            }
+            {
+                isAchievementsOpen ?
+                <div className="menu-box achievements-container" style={{ top: 0}} onClick={() => {dispatch(setAchievementsOpen())}}>
+                    <div className="menu"><i className="fas fa-home"></i></div>
+                </div>
+                :
+                <>
+                <div className="menu-box return" onClick={() => dispatch(setMode(''))}>
+                <div className="menu"><i className="fas fa-undo" ></i></div>
+                </div>
+                <div className="menu-box achievements-container" onClick={() => {dispatch(setAchievementsOpen())}}>
+                <div className="menu"><i className="fas fa-trophy"></i></div>
+                </div>
+                </>
+            }
             </div>
         </>
     )

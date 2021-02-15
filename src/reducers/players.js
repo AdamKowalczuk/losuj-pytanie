@@ -1,14 +1,10 @@
 let players=[
     {
         name:'Gracz 1',
-        points:0,
-        // isActive:true,
     },
 ];
 let newPlayers;
-
 const playersReducer = (state = players, action) => {
-
     switch (action.type) {
         case "CHANGE_NAME":
             newPlayers=players;
@@ -18,7 +14,6 @@ const playersReducer = (state = players, action) => {
             newPlayers=players;
             newPlayers.push({
                 name:action.payload,
-                points:0
             },);
             return newPlayers;
         case "DELETE_PLAYER":
@@ -29,5 +24,4 @@ const playersReducer = (state = players, action) => {
             return state
     }
 }
-
 export default playersReducer;

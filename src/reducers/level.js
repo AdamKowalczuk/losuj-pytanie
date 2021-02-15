@@ -1,6 +1,4 @@
-
 const levelReducer = (state = 1, action) => {
-
     switch (action.type) {
         case "SET_LEVEL":
             return state+action.payload;
@@ -8,5 +6,4 @@ const levelReducer = (state = 1, action) => {
             return state
     }
 }
-
 export default levelReducer;

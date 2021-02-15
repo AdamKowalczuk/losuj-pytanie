@@ -9,7 +9,6 @@ import Multiplayer from './components/Multiplayer'
 import { useSelector, useDispatch } from 'react-redux'
 import { setAchievementsOpen,setActualQuestion,setExp,setLevel, setRequiredExp,increment,setMode } from './actions/index'
 
-
 export default function App() {
   const actualQuestion = useSelector(state => state.actualQuestion);
   const category = useSelector(state => state.category);
@@ -38,7 +37,6 @@ export default function App() {
       else if(mode==='singleplayer'){
         return(
         <>
-
           {isAchievementsOpen===false ?
           <>
             <Nav/>

@@ -24,10 +24,8 @@ function setQuestions(categoryEn){
         case 'whatDoYouPrefer':
             return whatDoYouPrefer;
     }
-
 }
 const actualQuestionReducer = (state = defaultQuestion, action) => {
-
     switch (action.type) {
         case "SET_QUESTIONS":
             return state;
@@ -40,7 +38,6 @@ const actualQuestionReducer = (state = defaultQuestion, action) => {
                     availableQuestions.push(categoryEn[i])
                 }
             }
-            console.log("AvailableQuestions:",availableQuestions);
             if (availableQuestions.length === 0) {
                 return {
                     description: "Zadałeś wszystkie pytania!",
@@ -52,10 +49,8 @@ const actualQuestionReducer = (state = defaultQuestion, action) => {
                 availableQuestions[random].isUsed = true;
                 return availableQuestions[random];
             }
-
         default:
             return state;
     }
 }
-
 export default actualQuestionReducer;

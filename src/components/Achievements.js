@@ -14,10 +14,7 @@ export default function Achievements() {
                     <h3>Doświadczenie {exp}/{requiredExp}</h3>
                     <h2>Osiągnięcia</h2>
                 </div>
-{/* dodaj datę do Osiągnięcia */}
                 <div className="achievements-list">
-
-
                     <div className="achievements-item">
                         {counter >=10 ? <><i className="fas fa-award"></i><h3>Zadaj 10 pytań</h3></>
                         :
@@ -53,9 +50,6 @@ export default function Achievements() {
                         :
                         <><i className="opacity50 fas fa-lock"></i><h3 className="opacity30">Wbij 10 poziom</h3></>}
                     </div>
-
-
-
                 </div>
             </div>
         </>

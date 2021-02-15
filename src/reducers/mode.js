@@ -1,6 +1,4 @@
-
 const modeReducer = (state = "", action) => {
-
     switch (action.type) {
         case "SET_GAMEMODE":
             return action.payload;
@@ -8,5 +6,4 @@ const modeReducer = (state = "", action) => {
             return state
     }
 }
-
 export default modeReducer;

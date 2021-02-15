@@ -1,4 +1,3 @@
-
 import actualQuestionReducer from './draw';
 import categoryReducer from './category'
 import { combineReducers } from 'redux';
@@ -32,7 +31,5 @@ const allReducers = combineReducers({
     actualPlayer:actualPlayerReducer,
     isCategorySelected:isCategorySelectedReducer,
     isMenuDisabled:isMenuDisabledReducer,
-
 })
-
 export default allReducers;

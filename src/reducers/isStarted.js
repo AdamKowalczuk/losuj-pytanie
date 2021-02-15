@@ -1,6 +1,4 @@
-
 const isStartedReducer = (state = false, action) => {
-
     switch (action.type) {
         case "START_GAME":
             return !state;
@@ -8,5 +6,4 @@ const isStartedReducer = (state = false, action) => {
             return state
     }
 }
-
 export default isStartedReducer;

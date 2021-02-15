@@ -33,11 +33,9 @@ function changeColorOfActive(previousActive){
 }
 
 export default function Nav() {
-
     const dispatch = useDispatch();
     const previousActive = useSelector(state => state.previousActive);
     const level = useSelector(state => state.level);
-
     return (
         <>
             <div className="menu-box" onClick={() => {toogleMenu();changeColorOfActive(previousActive)}}>

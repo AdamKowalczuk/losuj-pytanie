@@ -3,7 +3,6 @@ let category={
     categoryEn:"random"
 }
 const categoryReducer = (state = category, action) => {
-
     switch (action.type) {
         case "SET_CATEGORY":
             return action.payload;
@@ -11,5 +10,4 @@ const categoryReducer = (state = category, action) => {
             return state
     }
 }
-
 export default categoryReducer;

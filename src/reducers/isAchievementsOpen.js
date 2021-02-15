@@ -1,6 +1,4 @@
-
 const isAchievementsOpenReducer = (state = false, action) => {
-
     switch (action.type) {
         case "SET_IS_ACHIEVEMENTS_OPEN":
             return !state
@@ -8,5 +6,4 @@ const isAchievementsOpenReducer = (state = false, action) => {
             return state
     }
 }
-
 export default isAchievementsOpenReducer;

@@ -2,7 +2,6 @@ import React from 'react';
 import Input from "muicss/lib/react/input";
 import '../styles/multiplayer.scss';
 import {useSelector, useDispatch } from 'react-redux'
-import NavMultiplayer from './NavMultiplayer'
 import MultiplayerGame from './MultiplayerGame'
 import { addPlayer,setPlayers,deletePlayer,changeName,startGame,setMode} from '../actions/index'
 
@@ -11,12 +10,10 @@ export default function Multiplayer() {
     const players= useSelector(state => state.players);
     const isStarted= useSelector(state => state.isStarted);
     const dispatch = useDispatch();
-
     return (
         <>
-            {isStarted ? <><NavMultiplayer/><MultiplayerGame/></> :
+            {isStarted ? <MultiplayerGame/> :
             <div className="multiplayer">
-
                 <h3>Dodaj graczy</h3>
                 <div className="input-container">
                     {players.map((player,id) => {
@@ -30,7 +27,6 @@ export default function Multiplayer() {
                         )
                     })}
                 </div>
-
                 <div className="button-container">
                 {playersNumber>=4 ?
                     <button className="btn btn-red" onClick={() => {dispatch(addPlayer(-1));dispatch(deletePlayer())}}>Usuń</button>
@@ -49,12 +45,9 @@ export default function Multiplayer() {
                 <div className="menu-box return" onClick={() => dispatch(setMode(''))}>
                     <div className="menu"><i className="fas fa-undo" ></i></div>
                 </div>
-
             </div>
             }
         </>
-
         )
-
 }
 
