@@ -731,7 +731,7 @@ export let philosophical = [
         categoryPl: "filozoficzne",
         categoryEn:'philosophical'
     },
-
+    // 41
     // {
     //     description: "",
     //     isUsed: false,
@@ -850,82 +850,137 @@ export let whatDoYouPrefer=[
         categoryEn:'whatDoYouPrefer'
     },
     {
-        description: "",
+        description: "Coca-Cola czy Pepsi?",
         isUsed: false,
         categoryPl: "co wolisz",
         categoryEn:'whatDoYouPrefer'
     },
     {
-        description: "",
+        description: "Przesadzić z solą czy ketchupem, kiedy jesz danie?",
         isUsed: false,
         categoryPl: "co wolisz",
         categoryEn:'whatDoYouPrefer'
     },
     {
-        description: "",
+        description: "Słuchawki douszne czy słuchawki nauszne?",
         isUsed: false,
         categoryPl: "co wolisz",
         categoryEn:'whatDoYouPrefer'
     },
     {
-        description: "",
+        description: "Pić z brudnego kubka czy jeść z brudnego talerza?",
         isUsed: false,
         categoryPl: "co wolisz",
         categoryEn:'whatDoYouPrefer'
     },
     {
-        description: "",
+        description: "Bokserki czy slipy?",
         isUsed: false,
         categoryPl: "co wolisz",
         categoryEn:'whatDoYouPrefer'
     },
     {
-        description: "",
+        description: "Dobry komputer, ale mało gier czy słaby komputer, ale dużo gier?",
         isUsed: false,
         categoryPl: "co wolisz",
         categoryEn:'whatDoYouPrefer'
     },
     {
-        description: "",
+        description: "Wiedzieć jak umrzesz czy wiedzieć kiedy umrzesz?",
         isUsed: false,
         categoryPl: "co wolisz",
         categoryEn:'whatDoYouPrefer'
     },
     {
-        description: "",
+        description: "Puścić głośnego bąka w kinie czy beknąć głośno w teatrze?",
         isUsed: false,
         categoryPl: "co wolisz",
         categoryEn:'whatDoYouPrefer'
     },
     {
-        description: "",
+        description: "Biała czekolada czy czarna czekolada?",
         isUsed: false,
         categoryPl: "co wolisz",
         categoryEn:'whatDoYouPrefer'
     },
     {
-        description: "",
+        description: "Tydzień na pustyni czy tydzień na biegunie północnym?",
         isUsed: false,
         categoryPl: "co wolisz",
         categoryEn:'whatDoYouPrefer'
     },
     {
-        description: "",
+        description: "Być świetnym tancerzem czy super śpiewać?",
         isUsed: false,
         categoryPl: "co wolisz",
         categoryEn:'whatDoYouPrefer'
     },
     {
-        description: "",
+        description: "Cofnąć się o 10 lat w przyszłość czy przenieść się o 10 lat w przyszłość?",
         isUsed: false,
         categoryPl: "co wolisz",
         categoryEn:'whatDoYouPrefer'
     },
-    // {
-    //     description: "",
-    //     isUsed: false,
-    //     categoryPl: "co wolisz",
-    //     categoryEn:'whatDoYouPrefer'
-    // },
+    // 30
+    {
+        description: "Pomarańcze czy mandarynki?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "Pokemony czy Bolek i Lolek",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "Pić tylko wodę czy pić tylko mleko?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "Kawa czy kakao?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "Zimny prysznic czy gorący prysznic?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "Nike czy Adidas?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "Wejść w kupę gołą stopą czy zgubić 100zł?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "Nie płacić za benzynę czy nie płacić za jedzenie?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "Sok jabłkowy czy sok pomarańczowy?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
+    {
+        description: "Matematyka czy Polski?",
+        isUsed: false,
+        categoryPl: "co wolisz",
+        categoryEn:'whatDoYouPrefer'
+    },
 ]
 
