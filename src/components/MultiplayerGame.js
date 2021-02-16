@@ -3,7 +3,7 @@ import {useSelector,useDispatch} from 'react-redux';
 import '../styles/multiplayerGame.scss';
 import Achievements from './Achievements'
 import NavMultiplayer from './NavMultiplayer'
-import { setActualQuestion,setExp,setLevel, setRequiredExp,increment,setMode,setAchievementsOpen,setCategoryToActive,changeActualPlayer, disableMenu} from '../actions/index'
+import { setActualQuestion,setExp,setLevel, setRequiredExp,increment,startGame,setMode,getCounterFromLocalStorage,setAchievementsOpen,setCategoryToActive,changeActualPlayer, disableMenu,setLevelFromLocalStorage,setExpFromLocalStorage,setRequiredExpFromLocalStorage} from '../actions/index'
 export default function MultiplayerGame() {
     const actualQuestion = useSelector(state => state.actualQuestion);
     const category = useSelector(state => state.category);
@@ -12,16 +12,44 @@ export default function MultiplayerGame() {
     const players= useSelector(state => state.players);
     const isCategorySelected= useSelector(state => state.isCategorySelected);
     const exp= useSelector(state => state.exp);
+    const level= useSelector(state => state.level);
     const requiredExp= useSelector(state => state.requiredExp);
     const isAchievementsOpen= useSelector(state => state.isAchievementsOpen);
     const dispatch = useDispatch();
 
-    function changeLevel() {
+    function init(){
+        let counter =JSON.parse(localStorage.getItem("counter"));
+        let newLevel =JSON.parse(localStorage.getItem("level"));
+        let newExp =JSON.parse(localStorage.getItem("exp"));
+        let newRequiredExp=JSON.parse(localStorage.getItem("requiredExp"));
+        if(newRequiredExp===null){
+          newRequiredExp=10;
+        }
+        if(newLevel===null){
+          newLevel=1
+        }
+        dispatch(setLevelFromLocalStorage(newLevel))
+        dispatch(setExpFromLocalStorage(newExp))
+        dispatch(setRequiredExpFromLocalStorage(newRequiredExp))
+        dispatch(getCounterFromLocalStorage(counter))
+      }
+      init();
+      function changeLevel() {
         if(exp>=requiredExp-1){
           dispatch(setLevel(1))
           dispatch(setRequiredExp(1.2))
           dispatch(setExp(-exp))
+          window.localStorage.setItem("level", JSON.stringify(level+1));
+          window.localStorage.setItem("requiredExp", JSON.stringify(Math.round(requiredExp*1.2)));
+          window.localStorage.setItem("exp", JSON.stringify(exp-exp));
         }
+        else{
+          window.localStorage.setItem("exp", JSON.stringify(exp+1));
+          window.localStorage.setItem("requiredExp", JSON.stringify(requiredExp));
+          window.localStorage.setItem("level", JSON.stringify(level));
+        }
+
+        // localStorage.clear();
       }
     return (
         <>
@@ -68,11 +96,11 @@ export default function MultiplayerGame() {
                 </div>
                 :
                 <>
-                <div className="menu-box return" onClick={() => dispatch(setMode(''))}>
-                <div className="menu"><i className="fas fa-undo" ></i></div>
-                </div>
-                <div className="menu-box achievements-container" onClick={() => {dispatch(setAchievementsOpen())}}>
-                <div className="menu"><i className="fas fa-trophy"></i></div>
+                <div className="menu-box return" onClick={() => {dispatch(setMode(''));dispatch(startGame())}}>
+                    <div className="menu"><i className="fas fa-undo" ></i></div>
+                    </div>
+                    <div className="menu-box achievements-container" onClick={() => {dispatch(setAchievementsOpen())}}>
+                    <div className="menu"><i className="fas fa-trophy"></i></div>
                 </div>
                 </>
             }

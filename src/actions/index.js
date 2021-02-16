@@ -111,6 +111,31 @@ export const disableMenu= () => {
     }
 };
 
+export const setLevelFromLocalStorage= (level) => {
+    return {
+        type: 'SET_LEVEL_FROM_LOCALSTORAGE',
+        payload:level
+    }
+};
+export const setExpFromLocalStorage= (exp) => {
+    return {
+        type: 'SET_EXP_FROM_LOCALSTORAGE',
+        payload:exp
+    }
+};
+export const setRequiredExpFromLocalStorage= (requiredExp) => {
+    return {
+        type: 'SET_REQUIREDEXP_FROM_LOCALSTORAGE',
+        payload:requiredExp
+    }
+};
+
+export const getCounterFromLocalStorage= (requiredExp) => {
+    return {
+        type: 'GET_COUNTER_FROM_LOCALSTORAGE',
+        payload:requiredExp
+    }
+};
 
 
 
