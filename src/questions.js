@@ -132,76 +132,112 @@ export let yesOrNot = [
         categoryEn:'yesOrNot'
     },
     {
-        description: "",
+        description: "Czy kiedykolwiek zdarzyło ci się odmówić czegoś słodkiego?",
         isUsed: false,
         categoryPl: "tak czy nie",
         categoryEn:'yesOrNot'
     },
     {
-        description: "",
+        description: "Oglądałeś/aś kiedykolwiek bajkę Krecika?",
         isUsed: false,
         categoryPl: "tak czy nie",
         categoryEn:'yesOrNot'
     },
     {
-        description: "",
+        description: "Wierzyłeś/aś kiedyś w wróżkę zębuszkę?",
         isUsed: false,
         categoryPl: "tak czy nie",
         categoryEn:'yesOrNot'
     },
     {
-        description: "",
+        description: "Oglądałeś/aś przynajmniej raz w życiu film Zmierzch?",
         isUsed: false,
         categoryPl: "tak czy nie",
         categoryEn:'yesOrNot'
     },
     {
-        description: "",
+        description: "Oglądałeś/aś przynajmniej raz w życiu trylogię Władcy Pierścieni?",
         isUsed: false,
         categoryPl: "tak czy nie",
         categoryEn:'yesOrNot'
     },
     {
-        description: "",
+        description: "Oglądałeś/aś przynajmniej raz w życiu Matrixa?",
         isUsed: false,
         categoryPl: "tak czy nie",
         categoryEn:'yesOrNot'
     },
     {
-        description: "",
+        description: "Czy kiedykolwiek spotkałeś/aś mima na żywo?",
         isUsed: false,
         categoryPl: "tak czy nie",
         categoryEn:'yesOrNot'
     },
     {
-        description: "",
+        description: "Czy kiedykolwiek w życiu byłeś/aś w klubie?",
         isUsed: false,
         categoryPl: "tak czy nie",
         categoryEn:'yesOrNot'
     },
     {
-        description: "",
+        description: "Czy kiedykolwiek w życiu jadłeś/aś owoce morza?",
         isUsed: false,
         categoryPl: "tak czy nie",
         categoryEn:'yesOrNot'
     },{
-        description: "",
+        description: "Czy kiedykolwiek spotkałeś/aś się z osobą poznaną przez internet?",
         isUsed: false,
         categoryPl: "tak czy nie",
         categoryEn:'yesOrNot'
     },
     {
-        description: "",
+        description: "Czy kiedykolwiek uciekłeś/aś z domu?",
         isUsed: false,
         categoryPl: "tak czy nie",
         categoryEn:'yesOrNot'
     },
-    // {
-    //     description: "",
-    //     isUsed: false,
-    //     categoryPl: "tak czy nie",
-    //     categoryEn:'yesOrNot'
-    // },
+    {
+        description: "Czy masz rozwalony telefon?",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "Czy kiedykolwiek spędziłeś/aś noc w namiocie?",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "Czy kiedykolwiek upuściłeś/aś chleb z masłem, masłem na dół?",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "Myślałeś/aś kiedyś o zmianie płci?",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "Czy jako dziecko oglądałeś/aś kiedykolwiek film tylko dla dorosłych?",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "Czy Polska to najlepszy kraj?",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
+    {
+        description: "Czy Polacy mają problem z alkoholem?",
+        isUsed: false,
+        categoryPl: "tak czy nie",
+        categoryEn:'yesOrNot'
+    },
 ];
 
 
@@ -263,6 +299,90 @@ export let crazy = [
         categoryEn:'crazy'
     },
     {
+        description: "Stojąc przy kasie, myślałeś/aś kiedyś aby podłożyć jakiś produkt osobie przed tobą?",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "Czy kiedykolwiek krzyczałeś/aś na głos w sklepie dla beki?",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "Czy wiesz, że jesteś obserwowany/a w tym momencie?",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "Czy kiedykolwiek wypiłeś/aś surowe jajko?",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
         description: "",
         isUsed: false,
         categoryPl: "zwariowane",
@@ -334,12 +454,36 @@ export let crazy = [
         categoryPl: "zwariowane",
         categoryEn:'crazy'
     },
-    // {
-    //     description: "",
-    //     isUsed: false,
-    //     categoryPl: "zwariowane",
-    //     categoryEn:'crazy'
-    // },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "zwariowane",
+        categoryEn:'crazy'
+    },
 ];
 
 export let aQuestionNoneAsked=[
@@ -403,6 +547,79 @@ export let aQuestionNoneAsked=[
         categoryPl: "Pytania, których nikt nie zadaje",
         categoryEn:'aQuestionNoneAsked'
     },
+    //10
+    {
+        description: "Czy kiedykolwiek spodobał ci się twój nauczyciel?",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
     {
         description: "",
         isUsed: false,
@@ -475,12 +692,42 @@ export let aQuestionNoneAsked=[
         categoryPl: "Pytania, których nikt nie zadaje",
         categoryEn:'aQuestionNoneAsked'
     },
-    // {
-    //     description: "",
-    //     isUsed: false,
-    //     categoryPl: "Pytania, których nikt nie zadaje",
-    //     categoryEn:'aQuestionNoneAsked'
-    // },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
+    {
+        description: "",
+        isUsed: false,
+        categoryPl: "Pytania, których nikt nie zadaje",
+        categoryEn:'aQuestionNoneAsked'
+    },
 ]
 
 
@@ -731,13 +978,6 @@ export let philosophical = [
         categoryPl: "filozoficzne",
         categoryEn:'philosophical'
     },
-    // 41
-    // {
-    //     description: "",
-    //     isUsed: false,
-    //     categoryPl: "filozoficzne",
-    //     categoryEn:'philosophical'
-    // },
 ];
 
 export let whatDoYouPrefer=[
@@ -921,7 +1161,6 @@ export let whatDoYouPrefer=[
         categoryPl: "co wolisz",
         categoryEn:'whatDoYouPrefer'
     },
-    // 30
     {
         description: "Pomarańcze czy mandarynki?",
         isUsed: false,
