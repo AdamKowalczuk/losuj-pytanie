@@ -31,6 +31,19 @@ export default function Achievements() {
             )}
           </div>
           <div className="achievements-item">
+            {counter >= 30 ? (
+              <>
+                <i className="fas fa-award"></i>
+                <h3>Zadaj 30 pytań</h3>
+              </>
+            ) : (
+              <>
+                <i className="opacity50 fas fa-lock"></i>
+                <h3 className="opacity30">Zadaj 30 pytań</h3>
+              </>
+            )}
+          </div>
+          <div className="achievements-item">
             {counter >= 50 ? (
               <>
                 <i className="fas fa-award"></i>
@@ -57,54 +70,28 @@ export default function Achievements() {
             )}
           </div>
           <div className="achievements-item">
-            {counter >= 200 ? (
+            {level >= 2 ? (
               <>
                 <i className="fas fa-award"></i>
-                <h3>Zadaj 200 pytań</h3>
+                <h3>Wbij 2 poziom</h3>
               </>
             ) : (
               <>
                 <i className="opacity50 fas fa-lock"></i>
-                <h3 className="opacity30">Zadaj 200 pytań</h3>
+                <h3 className="opacity30">Wbij 2 poziom</h3>
               </>
             )}
           </div>
           <div className="achievements-item">
-            {counter >= 500 ? (
+            {level >= 5 ? (
               <>
                 <i className="fas fa-award"></i>
-                <h3>Zadaj 500 pytań</h3>
+                <h3>Wbij 5 poziom</h3>
               </>
             ) : (
               <>
                 <i className="opacity50 fas fa-lock"></i>
-                <h3 className="opacity30">Zadaj 500 pytań</h3>
-              </>
-            )}
-          </div>
-          <div className="achievements-item">
-            {level >= 3 ? (
-              <>
-                <i className="fas fa-award"></i>
-                <h3>Wbij 3 poziom</h3>
-              </>
-            ) : (
-              <>
-                <i className="opacity50 fas fa-lock"></i>
-                <h3 className="opacity30">Wbij 3 poziom</h3>
-              </>
-            )}
-          </div>
-          <div className="achievements-item">
-            {level >= 10 ? (
-              <>
-                <i className="fas fa-award"></i>
-                <h3>Wbij 10 poziom</h3>
-              </>
-            ) : (
-              <>
-                <i className="opacity50 fas fa-lock"></i>
-                <h3 className="opacity30">Wbij 10 poziom</h3>
+                <h3 className="opacity30">Wbij 5 poziom</h3>
               </>
             )}
           </div>
