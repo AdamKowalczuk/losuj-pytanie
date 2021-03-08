@@ -13,21 +13,31 @@
     content="Nie masz pomysłu o czym rozmawiać z dziewczyną? - Wylosuj pytanie. Sprawdź się w grze wieloosobowej wraz ze swoimi znajomymi." />
   <meta name="keywords" content="zadaj pytanie,tak czy nie,pytania na imprezę, 1000 pytań,co wolisz,pytania, których nikt nie zadaje,zwariowane pytania,filozoficzne pytania">
   <link href="//cdn.muicss.com/mui-0.10.3/css/mui.min.css" rel="stylesheet" type="text/css" media="screen" />
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.png" />
+
   <link rel="canonical" href="https://losuj-pytanie.netlify.app/" />
   <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!-- ios support -->
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.png" />
+  <meta name="apple-mobile-web-app-status-bar" content="#f15d71">
 
 </head>
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
-  <script>
+  <!-- <script>
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('service-worker.js');
+    }
+  </script> -->
+  <script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('../src/serviceWorker.js')
+          .then((reg)=>console.log('Service worker registered',reg))
+          .catch((err)=>console.log('Service worker not registered',err))
     }
   </script>
 </body>
