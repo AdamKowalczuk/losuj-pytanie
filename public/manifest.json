@@ -40,7 +40,7 @@
     },
     {
       "src": "icons/maskable_icon.png",
-      "sizes": "500x500",
+      "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable any"
     }
@@ -48,8 +48,7 @@
   "display": "standalone",
   "theme_color": "#f15d71",
   "background_color": "#39405e",
-  "start_url": "https://losuj-pytanie.netlify.app/index.html",
-  "url": "https://losuj-pytanie.netlify.app/",
+  "start_url": "/index.html",
   "lang": "",
   "screenshots": [],
   "orientation": "portrait-primary"

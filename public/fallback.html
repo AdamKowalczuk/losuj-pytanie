@@ -28,13 +28,11 @@
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
+  <h5>OOPS!</h5>
+  <p>Nie możesz obejrzeć tej strony offline</p>
+  <button class="btn"><a href="/">Wróć na stronę główną</a></button>
 
-  <!-- <script>
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('service-worker.js');
-    }
-  </script> -->
+
   <script>
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('./serviceWorker.js')
