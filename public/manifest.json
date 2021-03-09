@@ -48,7 +48,7 @@
   "display": "standalone",
   "theme_color": "#f15d71",
   "background_color": "#39405e",
-  "start_url": "/index.html",
+  "start_url": "https://losuj-pytanie.netlify.app/",
   "lang": "",
   "screenshots": [],
   "orientation": "portrait-primary"
